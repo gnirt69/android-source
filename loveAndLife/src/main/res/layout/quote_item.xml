@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="“"
+        android:textSize="40dp"
+        android:textStyle="italic|bold"
+        android:textColor="#d7c5b2"/>
+
+    <TextView
+        android:id="@+id/txtQuoteContent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="quote content"
+        android:textSize="18dp"
+        android:textColor="#006386"
+        android:paddingBottom="30dp" />
+</LinearLayout>

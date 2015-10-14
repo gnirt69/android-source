@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/contextMenuSendSMS"
+        android:title="Gửi tin nhắn SMS" />
+    <item
+        android:id="@+id/contextMenuShareFacebook"
+        android:title="Chia sẻ trên Facebook" />
+</menu>

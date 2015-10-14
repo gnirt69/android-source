@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/imgStory"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/gift1"
+            android:layout_marginLeft="10dp" />
+
+        <TextView
+            android:id="@+id/txtStoryName"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:maxLines="1"
+            android:text="Story name"
+            android:textColor="#FA0259"
+            android:textSize="23dp"
+            android:layout_marginLeft="7dp" />
+    </LinearLayout>
+
+</LinearLayout>

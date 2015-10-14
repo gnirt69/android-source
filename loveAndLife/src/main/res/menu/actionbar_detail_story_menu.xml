@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menuItemShareStoryToFace"
+        android:title="Chia sẻ trên facebook"/>
+    <item
+        android:id="@+id/menuItemShareStoryToEmail"
+        android:title="Chia sẻ qua email"/>
+      <item
+        android:id="@+id/menuItemSetting"
+        android:title="Cài đặt hiển thị"/>
+    <item
+        android:id="@+id/menuItemFavourite"
+        android:title="Thêm vào yêu thích"/>
+    
+</menu>

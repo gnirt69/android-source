@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">Tình yêu &amp; cuộc sống</string>
+    <string name="facebook_app_id">1745187332375193</string>
+    <string name="com_facebook_loginview_log_in_button">Đăng nhập Facebook</string>
+    <string name="com_facebook_loginview_log_out_button">Đăng xuất Facebook</string>
+
+</resources>

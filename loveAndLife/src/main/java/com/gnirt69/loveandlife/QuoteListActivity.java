@@ -39,7 +39,6 @@ public class QuoteListActivity extends Activity {
         setContentView(R.layout.quote_list_activity);
         ActionBar bar = getActionBar();
         bar.setDisplayHomeAsUpEnabled(true);
-        //bar.setHomeAsUpIndicator(R.drawable.back);
         bar.setTitle("Trích dẫn hay");
         lvQuote =(ListView)findViewById(R.id.list_quote);
         ArrayList<QuoteItem> lstQuote = new ArrayList<QuoteItem>();

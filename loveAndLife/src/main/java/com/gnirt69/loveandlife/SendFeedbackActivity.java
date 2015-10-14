@@ -42,7 +42,6 @@ public class SendFeedbackActivity extends Activity {
         }
         bar.setDisplayHomeAsUpEnabled(true);
         bar.setTitle("Góp ý cho chúng tôi");
-        //bar.setHomeAsUpIndicator(R.drawable.back);
     }
 
     public void btnSendFeedBack_Click(View view) {

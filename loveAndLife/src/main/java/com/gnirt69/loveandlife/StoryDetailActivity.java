@@ -71,7 +71,6 @@ public class StoryDetailActivity extends Activity {
         }
         // Show back button on action bar
         bar.setDisplayHomeAsUpEnabled(true);
-        //bar.setHomeAsUpIndicator(R.drawable.back);
         bar.setTitle(getIntent().getExtras().getString("StoryName"));
         String searchResult[] = null;
         storyId = getIntent().getExtras().getInt("StoryId");

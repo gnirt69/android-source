@@ -58,7 +58,6 @@ public class MainActivity extends Activity {
         }
         //Display logo
         getActionBar().setLogo(R.drawable.gift2);
-        //Test git
         lstCategory = new ArrayList<Category>();
         lstCategory.add(new Category(1, "Gia đình", R.drawable.family2));
         lstCategory.add(new Category(2, "Cuộc sống", R.drawable.life1));

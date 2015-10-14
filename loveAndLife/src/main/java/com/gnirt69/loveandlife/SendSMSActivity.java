@@ -62,7 +62,6 @@ public class SendSMSActivity extends Activity implements View.OnClickListener {
         radGrpSendSms = (RadioGroup)findViewById(R.id.radGrpSendSms);
         radGrpSendSms.setOnCheckedChangeListener(radioChangedListener);
         ActionBar bar = getActionBar();
-        //bar.setHomeAsUpIndicator(R.drawable.back);
         bar.setDisplayHomeAsUpEnabled(true);
         int actionBarTitleId = Resources.getSystem().getIdentifier("action_bar_title", "id", "android");
         if (actionBarTitleId > 0) {

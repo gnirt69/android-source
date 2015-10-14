@@ -54,7 +54,6 @@ public class StoryListActivity extends Activity {
 
         //bar.setBackgroundDrawable(new ColorDrawable(Color.parseColor("#fbecc3")));
         bar.setDisplayHomeAsUpEnabled(true);
-        //bar.setHomeAsUpIndicator(R.drawable.back);
         bar.setTitle(getIntent().getExtras().getString("CategoryName"));
         categoryId = getIntent().getExtras().getInt("CategoryId");
         listViewStory = (ListView) findViewById(R.id.list_story);

@@ -65,7 +65,6 @@ public class ShareAppFBActivity extends Activity {
         }
         userName = (TextView) findViewById(R.id.txt_user_name);
         bar.setDisplayHomeAsUpEnabled(true);
-        //bar.setHomeAsUpIndicator(R.drawable.back);
         bar.setTitle("Chia sẻ ứng dụng");
         loginBtn = (LoginButton) findViewById(R.id.fb_login_button_2);
         loginBtn.setUserInfoChangedCallback(new LoginButton.UserInfoChangedCallback() {

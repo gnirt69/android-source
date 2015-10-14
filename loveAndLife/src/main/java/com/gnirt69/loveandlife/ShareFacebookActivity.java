@@ -68,7 +68,6 @@ public class ShareFacebookActivity extends Activity {
             }
         }
         bar.setDisplayHomeAsUpEnabled(true);
-        //bar.setHomeAsUpIndicator(R.drawable.back);
         bar.setTitle("Chia sẻ lên Facebook");
         int storyId = getIntent().getExtras().getInt("StoryId");
         if(-1 == storyId) { //From QuoteListActivity

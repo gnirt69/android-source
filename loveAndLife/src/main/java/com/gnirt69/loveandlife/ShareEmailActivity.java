@@ -42,7 +42,6 @@ public class ShareEmailActivity extends Activity {
             }
         }
         bar.setDisplayHomeAsUpEnabled(true);
-        //bar.setHomeAsUpIndicator(R.drawable.back);
         bar.setTitle("Chia sẻ qua email");
         txtSendAddress = (EditText) findViewById(R.id.txtSendAddress);
         int storyId = getIntent().getExtras().getInt("StoryId");

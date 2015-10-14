@@ -1,4 +1,4 @@
-<resources xmlns:android="http://schemas.android.com/apk/res/android">
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
 
     <!--
         Base application theme, dependent on API level. This theme is replaced
@@ -18,15 +18,14 @@
     <style name="AppTheme" parent="AppBaseTheme">
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
         <item name="android:actionBarStyle">@style/MyActionBar</item>
+        <!--Display custome back button-->
+        <item name="android:homeAsUpIndicator" tools:ignore="NewApi">@drawable/back</item>
     </style>
 
     <style name="MyActionBar" parent="@android:style/Widget.Holo.Light.ActionBar">
         <item name="android:background">#f2822c</item>
-        <!-- <item name="android:height">35dp</item> -->
-        <item name="android:textSize">18dp</item>
-        <item name="android:textColor">#FFFFFF</item>
-        <item name="android:icon">@drawable/gift2</item>
-        <item name="android:homeAsUpIndicator">@drawable/back</item>
+        <!--Display app icon in action bar with blank-->
+        <item name="android:icon">@android:color/transparent</item>
     </style>
 
 </resources>

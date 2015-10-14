@@ -6,7 +6,7 @@ android {
 
     defaultConfig {
         applicationId "com.gnirt69.loveandlife"
-        minSdkVersion 11
+        minSdkVersion 14
         targetSdkVersion 18
     }
 
@@ -20,4 +20,5 @@ android {
 
 dependencies {
     compile project(':facebookSDK')
+    compile 'com.android.support:appcompat-v7:22.2.1'
 }

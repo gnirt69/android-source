@@ -10,6 +10,7 @@ import com.gnirt69.loveandlife.model.Category;
 import com.gnirt69.loveandlife.model.Common;
 import com.gnirt69.loveandlife.model.StoryItem;
 
+import android.app.ActionBar;
 import android.app.Activity;
 import android.app.ProgressDialog;
 import android.content.Context;
@@ -25,6 +26,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
+import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -54,7 +56,8 @@ public class MainActivity extends Activity {
                 title.setTextColor(Color.WHITE);
             }
         }
-
+        //Display logo
+        getActionBar().setLogo(R.drawable.gift2);
         //Test git
         lstCategory = new ArrayList<Category>();
         lstCategory.add(new Category(1, "Gia đình", R.drawable.family2));

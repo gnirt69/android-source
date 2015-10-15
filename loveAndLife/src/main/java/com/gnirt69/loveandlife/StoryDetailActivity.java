@@ -94,8 +94,9 @@ public class StoryDetailActivity extends Activity {
                 tvAuthor.setText("");
             }
         }
-        //Check favourite story
+        //Check favourite story by id
         isFavouriteStory = dbHelper.isFavouriteStory(storyId);
+
     }
 
     @Override
